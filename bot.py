@@ -85,7 +85,7 @@ async def personfind(ctx, arg1, arg2):
     driver.get("https://fwcd.myschoolapp.com/app#login")
     sleep(5)
     try:
-        username = driver.find_element_by_xpath("""//*[@id="Username"]""").send_keys('bradenbaker25')
+        username = driver.find_element_by_xpath("""//*[@id="Username"]""").send_keys('FWCD Portal Username Here')
     except:
         driver.get('https://fwcd.myschoolapp.com/app/student#directory/1412')
     sleep(1)
@@ -95,7 +95,7 @@ async def personfind(ctx, arg1, arg2):
         driver.get('https://fwcd.myschoolapp.com/app/student#directory/1412')
     sleep(1)
     try:
-        password = driver.find_element_by_xpath("""//*[@id="Password"]""").send_keys('Cb575757')
+        password = driver.find_element_by_xpath("""//*[@id="Password"]""").send_keys('FWCD Portal Password Here')
     except:
         driver.get('https://fwcd.myschoolapp.com/app/student#directory/1412')
     sleep(1)
