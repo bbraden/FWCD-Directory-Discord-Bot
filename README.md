@@ -29,4 +29,8 @@ To get a random and motivational quote,
 
 - [@braden](https://www.github.com/bbraden)
 
+
+# Help
+- please let me know if you have any issues through the issue tab or by messaging me on discord (braden#9999) or on instagram (@vhs2)
+
   
